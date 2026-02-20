@@ -152,3 +152,10 @@ div.afterword.preface.group {
 .javascript .work.navigation li {
   visibility: hidden;
 }
+
+ul.work.navigation.actions {
+  background-image: url("https://64.media.tumblr.com/c733d7be6ac8813cda5ba4b7e79f5b0d/145cb62b4e3859c8-45/s500x750/508153ba8de7db317c27a76aabf40d4f99738c8b.png"), url("https://64.media.tumblr.com/3f5c87de96ac18b1ba7557c9c6774d41/145cb62b4e3859c8-8d/s250x400/f5c392d8e5c6d2806116bef44b01e30b9824ee24.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, 50em;
+  background-size: auto 80%, auto 75%;
+}
