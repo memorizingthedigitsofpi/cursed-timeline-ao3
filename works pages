@@ -1,0 +1,154 @@
+#header {
+  background-image: url("https://64.media.tumblr.com/1e15a030afe15e641da36a55f26097ca/145cb62b4e3859c8-64/s250x400/bf9f6faa7b37f1a8952d593cbf7301c94b5e0d5b.png");
+  background-repeat: no-repeat;
+  background-size: 50% contain;
+  background-position-x: center;
+  background-position-y: .5em;
+}
+
+img.icon {
+  display: none;
+}
+
+#greeting .user > li:nth-of-type(1) a.dropdown-toggle {
+  visibility: hidden;
+}
+
+#greeting .user > li:nth-of-type(1) a.dropdown-toggle::after {
+  visibility: visible;
+  content: "Verify your name";
+  padding-left: .5em;
+  padding-right: .5em;
+  color: #900 !important;
+  background: #ddd;
+  border: 1px solid #900;
+  border-radius: 5px;
+}
+
+#header .primary {
+  background-image: url("https://64.media.tumblr.com/6e78971fa2568076c70d32662c7e6207/145cb62b4e3859c8-ae/s250x400/4e4fa1747a828fc2e25f8af3de0b30c962c1f924.png");
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+  background-position-x: 70%;
+  background-position-y: center;
+}
+
+.work div.wrapper {
+  width: 75%;
+  position: relative;
+  left: 10em;
+}
+
+div.work {
+  background-image: url("https://64.media.tumblr.com/0a81cf7b4d29f65006375455ece7b46a/145cb62b4e3859c8-42/s250x400/68192bc75d173210e04130d2fb22e3f69f26bb59.png"), url("https://64.media.tumblr.com/fd6acb2d8316f785b5584c34d9020b4f/145cb62b4e3859c8-eb/s250x400/8469eadbf8ea297fbb26ece5c6b941bc4deef145.png");
+  background-position-x: left, right;
+  background-position-y: 3em, 3em;
+  background-size: 10%, 10%;
+  background-repeat: no-repeat, no-repeat;
+}
+
+dl.meta {
+  background-image: url("https://64.media.tumblr.com/f0e954c4eb9c39848a16e5369f7929dc/145cb62b4e3859c8-96/s250x400/1b5ef1f46034eb3d4cee134090f61ae99eb470f7.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+dl.meta dd.rating.tags a.tag::after {
+  margin-left: .75em;
+  padding-left: .5em;
+  padding-right: .5em;
+  content: "Verify your age";
+  color: #900 !important;
+  background: #ddd;
+  border: 1px solid #900;
+  border-radius: 5px;
+}
+
+dl.meta dd.character.tags a.tag,
+dl.meta dd.freeform.tags a.tag {
+  visibility: hidden;
+}
+
+.commas li:after {
+  content: "";
+}
+
+dl.meta dd.character.tags::before {
+  visibility: visible;
+  padding-left: .5em;
+  padding-right: .5em;
+  content: "Upgrade to Premium to see characters";
+  color: #900 !important;
+  background: #ddd;
+  border: 1px solid #900;
+  border-radius: 5px;
+}
+
+dl.meta dd.freeform.tags::before {
+  visibility: visible;
+  padding-left: .5em;
+  padding-right: .5em;
+  content: "Add tags";
+  color: #900 !important;
+  background: #ddd;
+  border: 1px solid #900;
+  border-radius: 5px;
+}
+
+dl.meta dd.character.tags ul.commas,
+dl.meta dd.freeform.tags ul.commas,
+dl.stats {
+  display: none;
+}
+
+dt.language,
+dd.language,
+dt.stats,
+dd.stats {
+  visibility: hidden;
+}
+
+dt.language::before {
+  visibility: visible;
+  content: "Stats:";
+}
+
+dd.language::before {
+  visibility: visible;
+  content: "3.1 ⭐⭐⭐ (7,343,441)";
+}
+
+dt.stats::before {
+  visibility: visible;
+  content: "Awards:";
+}
+
+dd.stats:before {
+  visibility: visible;
+  padding-left: .5em;
+  padding-right: .5em;
+  content: "Gift this fic a trophy for an algorithm boost!";
+  color: #900 !important;
+  background: #ddd;
+  border: 1px solid #900;
+  border-radius: 5px;
+}
+
+div.preface.group {
+  background-image: url("https://64.media.tumblr.com/3bbd111ab70fedb111d53b38d5e8f30d/145cb62b4e3859c8-db/s640x960/99e0661d78e6f2d02b408c2417d0cb0496fcbd72.png"), url("https://64.media.tumblr.com/a4eeac9b6fc84bbf3a3f4809d6f83a34/145cb62b4e3859c8-d4/s1280x1920/4ae793f25e6ae9b3fa061bd1804eea29132f2bab.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: center;
+  background-position-y: top, 4.5em;
+}
+
+div.preface.group h2.title.heading {
+  margin-top: 8em;
+}
+
+div.afterword.preface.group {
+  background: none !important;
+}
+
+.javascript .work.navigation li {
+  visibility: hidden;
+}
